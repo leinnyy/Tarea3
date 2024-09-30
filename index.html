@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Web Responsivo</title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" href="CSS/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-md">  
+        
+        <header id="header" class="mt-4">
+            <div class="header-content d-flex">
+                <img src="images/responsive_design_kinetic_knowledge.jpg" class="img-fluid me-3" alt="Imagen" style="max-width: 200px;">
+                <div class="texto">
+                    <h4>Web Responsivo</h4>
+                    <p>Es un enfoque de diseño que permite que un sitio web se adapte a diferentes tamaños de pantalla y dispositivos. En la actualidad, esto ofrece una mejor experiencia al usuario.</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Viewport</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CSS3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mas info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="d-flex mt-4">
+            <aside class="sidebar me-4" style="width: 200px;">
+                <div class="content">
+                    <p><b>Viewport</b></p>
+                </div>
+            </aside>
+            <section class="main-content flex-grow-1">
+                <article>
+                    <p>El viewport se refiere a la ventana visible de una página web en el navegador. Su tamaño puede variar dependiendo del dispositivo utilizado: smartphones, tablets, desktops, etc.</p>
+                </article>
+                <article>
+                    <p>Cuando se trabaja con viewport se debe saber su importancia al implementarlo. Algunos puntos importantes son:</p>
+                    <ol>
+                        <li>Tamaño de la Página</li>
+                        <li>Adaptación de Estilos</li>
+                        <li>Optimización de la Experiencia del Usuario.</li>
+                    </ol>
+                </article>
+                <article>
+                    <p>La configuración más utilizada del viewport se hace con la etiqueta de meta.</p>
+                </article>
+            </section>
+        </main>
+
+        <!-- Carrusel -->
+        <div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="images/Media-Queries.png" class="d-block w-100" alt="Media Queries">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/media-code.png" class="d-block w-100" alt="Media Code">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/viewport-size-420x236.png" class="d-block w-100" alt="Viewport Size">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <footer class="mt-4">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <p>Las media queries son una herramienta fundamental en CSS para crear diseños web responsivos que se adaptan a diferentes tamaños de pantalla y resoluciones.</p>
+                </div>
+                <div class="footer-section">
+                    <p>@media (max-width: 768px) { .container { max-width: 1000px; padding: 20px; } }</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

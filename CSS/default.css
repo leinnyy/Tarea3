@@ -1,0 +1,111 @@
+body {
+  margin: 0; 
+  line-height: 18px;
+  font-family: Arial, Helvetica; 
+}
+  
+.container {
+    
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px;
+  font-size: 18px; /* Ajusta el tamaño de la fuente */
+  line-height: 1.5;/* Desplaza el contenido hacia la izquierda y hacia arriba para centrarlo */
+  border: 13px solid #ccc;
+   
+}
+  
+header {
+  background-color: lightgreen;
+  padding: 40px;
+  border: 1px solid #ccc;
+  text-align: justify  ;
+  
+}
+
+  
+nav {
+  background-color: olivedrab;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+  
+main {
+  display: flex;
+  border: 1px solid #ccc;
+  gap: 10px;
+}
+  
+aside {
+  background-color: lightblue;
+  width: 30%; /* Adjust width as needed */
+  border: 1px solid #ccc;
+  padding: 40px;
+}
+  
+section {
+  background-color: lightblue;
+  width: 70%; /* Adjust width as needed */
+  border: 1px solid #ccc;
+  padding: 40px;
+}
+  
+img {
+  float: left; /* Pone la imagen a la izquierda */
+  width: 200px; /* Establece el ancho de la imagen */
+  height: 130px; /* Establece el alto de la imagen */
+  
+  
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fce4d6;
+  gap: 10px;
+  background-color: #fce4d6;
+}
+  
+.image-gallery img {
+  width: 20%; /* Adjust for 4 equal images */
+  padding: 7px;
+}
+
+.image img {
+  width: 80%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+  height: 11; /* Mantiene la relación de aspecto */
+  display: flex; /* Elimina el espacio debajo de la imagen */
+}
+
+  
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  clear: both;
+  position: relative;
+  border: 1px solid #ccc;
+  width: 107%;    
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.footer-section {
+    background-color: #444;
+    padding: 10px;
+    width: 45%;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+      max-width: 1000px;
+      padding: 20px;
+    }
+}
+
+ 
